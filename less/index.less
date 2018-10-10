@@ -57,6 +57,8 @@ html, body {
     height: 100%;
 }
 
+@font-family: "Lucida Console", Monaco, monospace;
+
 .container {
 	max-width: 820px;
 	width: 100%;
@@ -65,8 +67,13 @@ html, body {
 	flex-direction: row;
 	justify-content: space-between;
 
+	h2 {
+		font-family: @font-family;
+	}
+
 	p {
 		display: none;
+		font-family: @font-family;
 	}
 
 	section.box:hover {

@@ -142,8 +142,12 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
+.container h2 {
+  font-family: "Lucida Console", Monaco, monospace;
+}
 .container p {
   display: none;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 .container section.box:hover {
   background-color: white;
